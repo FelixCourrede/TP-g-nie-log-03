@@ -14,14 +14,14 @@ public class Table {
         rigaud.start();
         conchon.start();
         bastide.start();
-	// Attendre une touche au clavier
+        // attendre la frappe d’une touche dans la console
         try {
             System.in.read();
         } catch (IOException ex) {
         }
-
         rigaud.leaveTable();
         conchon.leaveTable();
         bastide.leaveTable();
+
     }
 }
